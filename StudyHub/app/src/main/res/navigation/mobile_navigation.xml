@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.studyhub.tz.ui.home.HomeFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/navigation_subjects"
+        android:name="com.studyhub.tz.ui.subjects.SubjectsFragment"
+        android:label="@string/nav_subjects" />
+
+    <fragment
+        android:id="@+id/navigation_quizzes"
+        android:name="com.studyhub.tz.ui.quizzes.QuizzesFragment"
+        android:label="@string/nav_quizzes" />
+
+    <fragment
+        android:id="@+id/navigation_past_papers"
+        android:name="com.studyhub.tz.ui.pastpapers.PastPapersFragment"
+        android:label="@string/nav_past_papers" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.studyhub.tz.ui.progress.ProgressFragment"
+        android:label="@string/nav_progress" />
+
+</navigation>
