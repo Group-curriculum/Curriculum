@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Study Hub</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Nyumbani</string>
+    <string name="nav_subjects">Masomo</string>
+    <string name="nav_quiz">Jaribio</string>
+    <string name="nav_past_papers">Majaribio</string>
+    <string name="nav_progress">Maendeleo</string>
+    
+    <!-- Common -->
+    <string name="welcome">Karibu</string>
+    <string name="ready_to_study">Tayari kusoma?</string>
+    <string name="loading">Inapakia...</string>
+    <string name="error">Hitilafu</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="cancel">Ghairi</string>
+    <string name="ok">Sawa</string>
+    <string name="save">Hifadhi</string>
+    <string name="delete">Futa</string>
+    <string name="edit">Hariri</string>
+    <string name="search">Tafuta</string>
+    <string name="filter">Chuja</string>
+    <string name="sort">Panga</string>
+    <string name="refresh">Sasisha</string>
+    <string name="back">Rudi</string>
+    <string name="next">Ifuatayo</string>
+    <string name="previous">Nyuma</string>
+    <string name="finish">Maliza</string>
+    <string name="continue_text">Endelea</string>
+    
+    <!-- Authentication -->
+    <string name="sign_in">Ingia</string>
+    <string name="sign_up">Jisajili</string>
+    <string name="sign_out">Ondoka</string>
+    <string name="email">Barua pepe</string>
+    <string name="password">Nywila</string>
+    <string name="confirm_password">Thibitisha nywila</string>
+    <string name="full_name">Jina kamili</string>
+    <string name="forgot_password">Umesahau nywila?</string>
+    <string name="dont_have_account">Huna akaunti?</string>
+    <string name="already_have_account">Una akaunti?</string>
+    <string name="continue_with_google">Endelea na Google</string>
+    
+    <!-- Home -->
+    <string name="study_streak">Mfululizo wa kusoma</string>
+    <string name="keep_it_up">Endelea hivyo! 🔥</string>
+    <string name="total_study_time">Jumla ya muda wa kusoma</string>
+    <string name="quick_actions">Vitendo vya haraka</string>
+    <string name="recent_subjects">Masomo ya hivi karibuni</string>
+    <string name="study_tips">Vidokezo vya kusoma</string>
+    <string name="study_tip_of_day">💡 Kidokezo cha siku</string>
+    <string name="pomodoro_tip">Chukua mapumziko ya kawaida kila dakika 25-30 ili kudumisha umakini na kuboresha kumbukumbu. Mbinu ya Pomodoro inafanya kazi vizuri!</string>
+    
+    <!-- Subjects -->
+    <string name="subjects">Masomo</string>
+    <string name="select_level">Chagua kiwango</string>
+    <string name="o_level">O-Level</string>
+    <string name="a_level">A-Level</string>
+    <string name="core_subjects">Masomo ya msingi</string>
+    <string name="elective_subjects">Masomo ya hiari</string>
+    
+    <!-- Notes -->
+    <string name="study_notes">Maelezo ya kusoma</string>
+    <string name="search_notes">Tafuta maelezo...</string>
+    <string name="all_notes">Yote</string>
+    <string name="recent_notes">Hivi karibuni</string>
+    <string name="bookmarked_notes">Alama za ukumbusho</string>
+    <string name="offline_notes">Nje ya mtandao</string>
+    <string name="difficulty">Ugumu</string>
+    <string name="read_time">Muda wa kusoma</string>
+    <string name="offline">Nje ya mtandao</string>
+    <string name="bookmark">Alama ya ukumbusho</string>
+    <string name="remove_bookmark">Ondoa alama ya ukumbusho</string>
+    <string name="add_bookmark">Ongeza alama ya ukumbusho</string>
+    
+    <!-- Quiz -->
+    <string name="quizzes_mock_tests">Jaribio na Majaribio</string>
+    <string name="practice">Mazoezi</string>
+    <string name="mock_tests">Jaribio la majaribio</string>
+    <string name="bookmarked_quizzes">Jaribio zilizo na alama</string>
+    <string name="quick_quiz">Jaribio la haraka</string>
+    <string name="mock_test">Jaribio la majaribio</string>
+    <string name="questions">maswali</string>
+    <string name="no_time_limit">Hakuna kikomo cha muda</string>
+    <string name="average_score">Alama ya wastani</string>
+    <string name="time_limit">Kikomo cha muda</string>
+    
+    <!-- Past Papers -->
+    <string name="past_papers">Majaribio ya zamani</string>
+    <string name="filter_by_year">Chuja kwa mwaka</string>
+    <string name="filter_by_subject">Chuja kwa somo</string>
+    <string name="all_years">Yote</string>
+    <string name="all_subjects">Yote</string>
+    <string name="duration">Muda</string>
+    <string name="total_marks">Jumla ya alama</string>
+    <string name="marks">alama</string>
+    <string name="downloaded">Imepakuliwa</string>
+    <string name="premium">Premium</string>
+    <string name="download">Pakua</string>
+    <string name="view">Angalia</string>
+    
+    <!-- Progress -->
+    <string name="your_progress">Maendeleo yako</string>
+    <string name="view_progress">Angalia maendeleo</string>
+    <string name="week">Wiki</string>
+    <string name="month">Mwezi</string>
+    <string name="year">Mwaka</string>
+    <string name="study_statistics">Takwimu za kusoma</string>
+    <string name="notes_read">Maelezo yameandikwa</string>
+    <string name="quizzes_passed">Jaribio zimepitwa</string>
+    <string name="study_hours">Masaa ya kusoma</string>
+    <string name="achievements">Mafanikio</string>
+    <string name="subject_progress">Maendeleo ya somo</string>
+    <string name="recent_achievements">Mafanikio ya hivi karibuni</string>
+    <string name="unlocked">Imefunguliwa</string>
+    
+    <!-- Settings -->
+    <string name="settings">Mipangilio</string>
+    <string name="preferences">Mapendeleo</string>
+    <string name="notifications">Arifa</string>
+    <string name="study_reminders_updates">Ukumbusho wa kusoma na sasisho</string>
+    <string name="dark_mode">Hali ya giza</string>
+    <string name="use_dark_theme">Tumia mada ya giza</string>
+    <string name="offline_mode">Hali ya nje ya mtandao</string>
+    <string name="download_content_offline">Pakua maudhui kwa matumizi ya nje ya mtandao</string>
+    <string name="study_settings">Mipangilio ya kusoma</string>
+    <string name="study_reminders">Ukumbusho wa kusoma</string>
+    <string name="set_daily_study_reminders">Weka ukumbusho wa kila siku wa kusoma</string>
+    <string name="font_size">Ukubwa wa herufi</string>
+    <string name="adjust_text_size">Rekebisha ukubwa wa maandishi</string>
+    <string name="language">Lugha</string>
+    <string name="english_kiswahili">Kiingereza / Kiswahili</string>
+    <string name="account">Akaunti</string>
+    <string name="subscription">Uanachama</string>
+    <string name="premium_active">Premium inatumika</string>
+    <string name="upgrade_to_premium">Pandisha hadi Premium</string>
+    <string name="privacy_policy">Sera ya faragha</string>
+    <string name="view_privacy_policy">Angalia sera ya faragha</string>
+    <string name="terms_of_service">Masharti ya huduma</string>
+    <string name="view_terms_of_service">Angalia masharti ya huduma</string>
+    <string name="about">Kuhusu</string>
+    <string name="app_version_info">Toleo la programu na taarifa</string>
+    <string name="sign_out_account">Ondoka kwenye akaunti yako</string>
+    <string name="edit_profile">Hariri wasifu</string>
+    <string name="o_level_student">Mwanafunzi wa O-Level</string>
+    <string name="a_level_student">Mwanafunzi wa A-Level</string>
+    
+    <!-- Difficulty Levels -->
+    <string name="beginner">Mwanzo</string>
+    <string name="intermediate">Kati</string>
+    <string name="advanced">Juu</string>
+    
+    <!-- Months -->
+    <string name="march">Machi</string>
+    <string name="may">Mei</string>
+    <string name="november">Novemba</string>
+    
+    <!-- Subjects -->
+    <string name="mathematics">Hisabati</string>
+    <string name="physics">Fizikia</string>
+    <string name="chemistry">Kemia</string>
+    <string name="biology">Biolojia</string>
+    <string name="english">Kiingereza</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="history">Historia</string>
+    <string name="geography">Jiografia</string>
+    <string name="civics">Siasa</string>
+    <string name="commerce">Biashara</string>
+    <string name="book_keeping">Uhasibu</string>
+    <string name="basic_mathematics">Hisabati ya msingi</string>
+    <string name="additional_mathematics">Hisabati ya ziada</string>
+    <string name="economics">Uchumi</string>
+    <string name="accountancy">Uhasibu</string>
+    <string name="general_studies">Masomo ya jumla</string>
+    
+    <!-- Topics -->
+    <string name="algebra">Aljebra</string>
+    <string name="mechanics">Makanika</string>
+    <string name="atomic_structure">Muundo wa atomu</string>
+    <string name="cell_biology">Biolojia ya seli</string>
+    <string name="grammar">Sarufi</string>
+    
+    <!-- Achievements -->
+    <string name="first_quiz_passed">Jaribio la kwanza lilipitwa</string>
+    <string name="completed_first_quiz">Umemaliza jaribio lako la kwanza kwa mafanikio</string>
+    <string name="study_streak_achievement">Mfululizo wa kusoma</string>
+    <string name="studied_consecutive_days">Umesoma kwa siku 7 mfululizo</string>
+    <string name="note_reader">Msomaji wa maelezo</string>
+    <string name="read_study_notes">Umesoma maelezo 20 ya kusoma</string>
+    <string name="perfect_score">Alama kamili</string>
+    <string name="get_perfect_score">Pata 100% kwenye jaribio lolote</string>
+</resources>
