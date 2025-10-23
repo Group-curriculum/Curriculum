@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Study Hub</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_subjects">Subjects</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_past_papers">Papers</string>
+    <string name="nav_progress">Progress</string>
+    
+    <!-- Common -->
+    <string name="welcome">Welcome</string>
+    <string name="ready_to_study">Ready to study?</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="refresh">Refresh</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="continue_text">Continue</string>
+    
+    <!-- Authentication -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="continue_with_google">Continue with Google</string>
+    
+    <!-- Home -->
+    <string name="study_streak">Study Streak</string>
+    <string name="keep_it_up">Keep it up! 🔥</string>
+    <string name="total_study_time">Total Study Time</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recent_subjects">Recent Subjects</string>
+    <string name="study_tips">Study Tips</string>
+    <string name="study_tip_of_day">💡 Study Tip of the Day</string>
+    <string name="pomodoro_tip">Take regular breaks every 25-30 minutes to maintain focus and improve retention. The Pomodoro Technique works wonders!</string>
+    
+    <!-- Subjects -->
+    <string name="subjects">Subjects</string>
+    <string name="select_level">Select Level</string>
+    <string name="o_level">O-Level</string>
+    <string name="a_level">A-Level</string>
+    <string name="core_subjects">Core Subjects</string>
+    <string name="elective_subjects">Elective Subjects</string>
+    
+    <!-- Notes -->
+    <string name="study_notes">Study Notes</string>
+    <string name="search_notes">Search notes...</string>
+    <string name="all_notes">All</string>
+    <string name="recent_notes">Recent</string>
+    <string name="bookmarked_notes">Bookmarked</string>
+    <string name="offline_notes">Offline</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="read_time">Read Time</string>
+    <string name="offline">Offline</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="remove_bookmark">Remove bookmark</string>
+    <string name="add_bookmark">Add bookmark</string>
+    
+    <!-- Quiz -->
+    <string name="quizzes_mock_tests">Quizzes &amp; Mock Tests</string>
+    <string name="practice">Practice</string>
+    <string name="mock_tests">Mock Tests</string>
+    <string name="bookmarked_quizzes">Bookmarked</string>
+    <string name="quick_quiz">Quick Quiz</string>
+    <string name="mock_test">Mock Test</string>
+    <string name="questions">questions</string>
+    <string name="no_time_limit">No limit</string>
+    <string name="average_score">Average Score</string>
+    <string name="time_limit">Time Limit</string>
+    
+    <!-- Past Papers -->
+    <string name="past_papers">Past Papers</string>
+    <string name="filter_by_year">Filter by Year</string>
+    <string name="filter_by_subject">Filter by Subject</string>
+    <string name="all_years">All</string>
+    <string name="all_subjects">All</string>
+    <string name="duration">Duration</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="marks">marks</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="premium">Premium</string>
+    <string name="download">Download</string>
+    <string name="view">View</string>
+    
+    <!-- Progress -->
+    <string name="your_progress">Your Progress</string>
+    <string name="view_progress">View Progress</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="study_statistics">Study Statistics</string>
+    <string name="notes_read">Notes Read</string>
+    <string name="quizzes_passed">Quizzes Passed</string>
+    <string name="study_hours">Study Hours</string>
+    <string name="achievements">Achievements</string>
+    <string name="subject_progress">Subject Progress</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="unlocked">Unlocked</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="notifications">Notifications</string>
+    <string name="study_reminders_updates">Study reminders and updates</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="use_dark_theme">Use dark theme</string>
+    <string name="offline_mode">Offline Mode</string>
+    <string name="download_content_offline">Download content for offline use</string>
+    <string name="study_settings">Study Settings</string>
+    <string name="study_reminders">Study Reminders</string>
+    <string name="set_daily_study_reminders">Set daily study reminders</string>
+    <string name="font_size">Font Size</string>
+    <string name="adjust_text_size">Adjust text size</string>
+    <string name="language">Language</string>
+    <string name="english_kiswahili">English / Kiswahili</string>
+    <string name="account">Account</string>
+    <string name="subscription">Subscription</string>
+    <string name="premium_active">Premium Active</string>
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="view_privacy_policy">View privacy policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="view_terms_of_service">View terms of service</string>
+    <string name="about">About</string>
+    <string name="app_version_info">App version and info</string>
+    <string name="sign_out_account">Sign out of your account</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="o_level_student">O-Level Student</string>
+    <string name="a_level_student">A-Level Student</string>
+    
+    <!-- Difficulty Levels -->
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    
+    <!-- Months -->
+    <string name="march">March</string>
+    <string name="may">May</string>
+    <string name="november">November</string>
+    
+    <!-- Subjects -->
+    <string name="mathematics">Mathematics</string>
+    <string name="physics">Physics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="biology">Biology</string>
+    <string name="english">English</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="history">History</string>
+    <string name="geography">Geography</string>
+    <string name="civics">Civics</string>
+    <string name="commerce">Commerce</string>
+    <string name="book_keeping">Book Keeping</string>
+    <string name="basic_mathematics">Basic Mathematics</string>
+    <string name="additional_mathematics">Additional Mathematics</string>
+    <string name="economics">Economics</string>
+    <string name="accountancy">Accountancy</string>
+    <string name="general_studies">General Studies</string>
+    
+    <!-- Topics -->
+    <string name="algebra">Algebra</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="atomic_structure">Atomic Structure</string>
+    <string name="cell_biology">Cell Biology</string>
+    <string name="grammar">Grammar</string>
+    
+    <!-- Achievements -->
+    <string name="first_quiz_passed">First Quiz Passed</string>
+    <string name="completed_first_quiz">Completed your first quiz successfully</string>
+    <string name="study_streak_achievement">Study Streak</string>
+    <string name="studied_consecutive_days">Studied for 7 consecutive days</string>
+    <string name="note_reader">Note Reader</string>
+    <string name="read_study_notes">Read 20 study notes</string>
+    <string name="perfect_score">Perfect Score</string>
+    <string name="get_perfect_score">Get 100% on any quiz</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="study_hub_blue">#2196F3</color>
+    <color name="study_hub_blue_light">#64B5F6</color>
+    <color name="study_hub_blue_dark">#1976D2</color>
+
+    <!-- Secondary Colors -->
+    <color name="study_hub_orange">#FF9800</color>
+    <color name="study_hub_orange_light">#FFB74D</color>
+    <color name="study_hub_orange_dark">#F57C00</color>
+
+    <!-- Accent Colors -->
+    <color name="study_hub_green">#4CAF50</color>
+    <color name="study_hub_red">#F44336</color>
+    <color name="study_hub_purple">#9C27B0</color>
+    <color name="study_hub_teal">#009688</color>
+
+    <!-- Neutral Colors -->
+    <color name="study_hub_white">#FFFFFF</color>
+    <color name="study_hub_black">#000000</color>
+    <color name="study_hub_dark">#121212</color>
+    <color name="study_hub_dark_surface">#1E1E1E</color>
+
+    <!-- Text Colors -->
+    <color name="study_hub_text_primary">#212121</color>
+    <color name="study_hub_text_secondary">#757575</color>
+    <color name="study_hub_text_hint">#BDBDBD</color>
+
+    <!-- Background Colors -->
+    <color name="study_hub_background">#FAFAFA</color>
+    <color name="study_hub_surface">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="study_hub_success">#4CAF50</color>
+    <color name="study_hub_warning">#FF9800</color>
+    <color name="study_hub_error">#F44336</color>
+    <color name="study_hub_info">#2196F3</color>
+
+    <!-- Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

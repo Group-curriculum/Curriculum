@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudyHub" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/study_hub_blue</item>
+        <item name="colorOnPrimary">@color/study_hub_white</item>
+        <item name="colorPrimaryContainer">@color/study_hub_blue_light</item>
+        <item name="colorOnPrimaryContainer">@color/study_hub_dark</item>
+        <item name="colorSecondary">@color/study_hub_blue_light</item>
+        <item name="colorOnSecondary">@color/study_hub_white</item>
+        <item name="colorSecondaryContainer">@color/study_hub_blue_light</item>
+        <item name="colorOnSecondaryContainer">@color/study_hub_dark</item>
+        <item name="colorTertiary">@color/study_hub_orange</item>
+        <item name="colorOnTertiary">@color/study_hub_white</item>
+        <item name="colorTertiaryContainer">@color/study_hub_orange_light</item>
+        <item name="colorOnTertiaryContainer">@color/study_hub_dark</item>
+        <item name="colorError">@color/study_hub_red</item>
+        <item name="colorOnError">@color/study_hub_white</item>
+        <item name="colorErrorContainer">@color/study_hub_red</item>
+        <item name="colorOnErrorContainer">@color/study_hub_white</item>
+        <item name="colorSurface">@color/study_hub_white</item>
+        <item name="colorOnSurface">@color/study_hub_dark</item>
+        <item name="colorSurfaceVariant">@color/study_hub_background</item>
+        <item name="colorOnSurfaceVariant">@color/study_hub_text_secondary</item>
+        <item name="colorOutline">@color/study_hub_text_hint</item>
+        <item name="colorOutlineVariant">@color/study_hub_text_hint</item>
+        <item name="colorSurfaceInverse">@color/study_hub_dark</item>
+        <item name="colorOnSurfaceInverse">@color/study_hub_white</item>
+        <item name="colorPrimaryInverse">@color/study_hub_blue_light</item>
+        <item name="colorOnPrimaryInverse">@color/study_hub_dark</item>
+        <item name="colorSurfaceContainer">@color/study_hub_white</item>
+        <item name="colorSurfaceContainerHigh">@color/study_hub_white</item>
+        <item name="colorSurfaceContainerHighest">@color/study_hub_white</item>
+        <item name="colorSurfaceContainerLow">@color/study_hub_background</item>
+        <item name="colorSurfaceContainerLowest">@color/study_hub_background</item>
+        <item name="colorSurfaceDim">@color/study_hub_background</item>
+        <item name="colorSurfaceBright">@color/study_hub_white</item>
+        <item name="colorBackground">@color/study_hub_background</item>
+        <item name="colorOnBackground">@color/study_hub_dark</item>
+        <item name="colorScrim">@color/study_hub_dark</item>
+        <item name="colorOnScrim">@color/study_hub_white</item>
+        <item name="colorShadow">@color/study_hub_dark</item>
+        <item name="colorSurfaceTint">@color/study_hub_blue</item>
+        <item name="colorOutlineInverse">@color/study_hub_text_hint</item>
+        <item name="colorSurfaceInverseVariant">@color/study_hub_dark_surface</item>
+        <item name="colorOnSurfaceInverseVariant">@color/study_hub_white</item>
+    </style>
+
+    <style name="Theme.StudyHub" parent="Base.Theme.StudyHub" />
+
+    <style name="Theme.StudyHub.NoActionBar" parent="Theme.StudyHub">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.StudyHub.Splash" parent="Theme.StudyHub.NoActionBar">
+        <item name="android:windowBackground">@color/study_hub_blue</item>
+        <item name="android:statusBarColor">@color/study_hub_blue</item>
+        <item name="android:navigationBarColor">@color/study_hub_blue</item>
+    </style>
+</resources>
