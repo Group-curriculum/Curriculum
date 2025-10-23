@@ -49,15 +49,29 @@ class ProgressFragment : Fragment() {
     private fun observeData() {
         val userId = FirebaseAuth.getInstance().currentUser?.uid ?: return
         
+        // Setup adapters
+        val strongSubjectsAdapter = com.studyhub.tz.ui.adapters.ProgressSubjectAdapter()
+        binding.rvStrongSubjects.adapter = strongSubjectsAdapter
+        
+        val weakSubjectsAdapter = com.studyhub.tz.ui.adapters.ProgressSubjectAdapter()
+        binding.rvWeakSubjects.adapter = weakSubjectsAdapter
+        
         // Observe all progress
         viewModel.getAllProgressByUser(userId).observe(viewLifecycleOwner) { progressList ->
             updateStatistics(progressList)
+            
+            // Separate into strong and weak subjects
+            val sorted = progressList.sortedByDescending { it.averageScore }
+            val strong = sorted.take(3)
+            val weak = sorted.reversed().take(2)
+            
+            strongSubjectsAdapter.submitList(strong)
+            weakSubjectsAdapter.submitList(weak)
         }
         
         // Observe top subjects
         viewModel.getTopSubjects(userId, 5).observe(viewLifecycleOwner) { topSubjects ->
-            // Setup adapter for strong subjects
-            // TODO: Create and set adapter
+            strongSubjectsAdapter.submitList(topSubjects)
         }
         
         // Observe total study time

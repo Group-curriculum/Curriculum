@@ -74,9 +74,14 @@ class SubjectsFragment : Fragment() {
     }
     
     private fun loadSubjects() {
+        val adapter = com.studyhub.tz.ui.adapters.SubjectAdapter { subject ->
+            // Handle subject click - navigate to subject details or notes
+            // TODO: Navigate to notes for this subject
+        }
+        binding.rvSubjects.adapter = adapter
+        
         viewModel.getSubjectsByLevel(currentLevel).observe(viewLifecycleOwner) { subjects ->
-            // Setup adapter with subjects
-            // TODO: Create and set adapter
+            adapter.submitList(subjects)
         }
     }
 

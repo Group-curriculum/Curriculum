@@ -68,16 +68,24 @@ class QuizzesFragment : Fragment() {
     }
     
     private fun loadAllQuizzes() {
+        val adapter = com.studyhub.tz.ui.adapters.QuizAdapter { quiz ->
+            // Handle quiz click - navigate to quiz activity
+            val intent = android.content.Intent(requireContext(), com.studyhub.tz.ui.quiz.QuizActivity::class.java)
+            intent.putExtra("QUIZ_ID", quiz.id)
+            startActivity(intent)
+        }
+        binding.rvQuizzes.adapter = adapter
+        
         viewModel.getPopularQuizzes(50).observe(viewLifecycleOwner) { quizzes ->
-            // Setup adapter with quizzes
-            // TODO: Create and set adapter
+            adapter.submitList(quizzes)
         }
     }
     
     private fun loadQuizzesByType(type: QuizType) {
+        val adapter = binding.rvQuizzes.adapter as? com.studyhub.tz.ui.adapters.QuizAdapter
+        
         viewModel.getQuizzesByType(type).observe(viewLifecycleOwner) { quizzes ->
-            // Setup adapter with filtered quizzes
-            // TODO: Create and set adapter
+            adapter?.submitList(quizzes)
         }
     }
 

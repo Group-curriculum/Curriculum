@@ -60,21 +60,33 @@ class HomeFragment : Fragment() {
     
     private fun observeData() {
         // Observe popular subjects
+        val subjectAdapter = com.studyhub.tz.ui.adapters.SubjectAdapter { subject ->
+            // Handle subject click - navigate to subject details
+        }
+        binding.rvPopularSubjects.adapter = subjectAdapter
+        
         subjectViewModel.getPopularSubjects(6).observe(viewLifecycleOwner) { subjects ->
-            // Setup adapter for popular subjects
-            // TODO: Create and set adapter
+            subjectAdapter.submitList(subjects)
         }
         
         // Observe recent notes
+        val noteAdapter = com.studyhub.tz.ui.adapters.NoteAdapter { note ->
+            // Handle note click - navigate to note detail
+        }
+        binding.rvRecentNotes.adapter = noteAdapter
+        
         noteViewModel.getPopularNotes(5).observe(viewLifecycleOwner) { notes ->
-            // Setup adapter for recent notes
-            // TODO: Create and set adapter
+            noteAdapter.submitList(notes)
         }
         
         // Observe quick quizzes
+        val quizAdapter = com.studyhub.tz.ui.adapters.QuizAdapter { quiz ->
+            // Handle quiz click - navigate to quiz
+        }
+        binding.rvQuickQuizzes.adapter = quizAdapter
+        
         quizViewModel.getPopularQuizzes(4).observe(viewLifecycleOwner) { quizzes ->
-            // Setup adapter for quick quizzes
-            // TODO: Create and set adapter
+            quizAdapter.submitList(quizzes)
         }
     }
 

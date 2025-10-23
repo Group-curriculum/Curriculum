@@ -58,10 +58,29 @@ class PastPapersFragment : Fragment() {
             binding.swipeRefresh.isRefreshing = isLoading
         }
         
+        // Setup adapter
+        val adapter = com.studyhub.tz.ui.adapters.PastPaperAdapter(
+            onDownloadClick = { paper ->
+                // Handle download
+                viewModel.incrementDownloadCount(paper.id)
+                android.widget.Toast.makeText(
+                    requireContext(),
+                    "Downloading ${paper.title}...",
+                    android.widget.Toast.LENGTH_SHORT
+                ).show()
+            },
+            onViewSolutionsClick = { paper ->
+                // Handle view solutions
+                val intent = android.content.Intent(requireContext(), com.studyhub.tz.ui.pastpapers.PastPaperDetailActivity::class.java)
+                intent.putExtra("PAPER_ID", paper.id)
+                startActivity(intent)
+            }
+        )
+        binding.rvPastPapers.adapter = adapter
+        
         // Observe bookmarked past papers (initial load)
         viewModel.getBookmarkedPastPapers().observe(viewLifecycleOwner) { papers ->
-            // Setup adapter with past papers
-            // TODO: Create and set adapter
+            adapter.submitList(papers)
         }
     }
     
