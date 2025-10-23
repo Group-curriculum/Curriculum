@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Study Hub</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Nyumbani</string>
+    <string name="nav_subjects">Masomo</string>
+    <string name="nav_quizzes">Maswali</string>
+    <string name="nav_past_papers">Mitihani ya Zamani</string>
+    <string name="nav_progress">Maendeleo</string>
+    
+    <!-- Auth -->
+    <string name="email">Barua pepe</string>
+    <string name="password">Neno la siri</string>
+    <string name="display_name">Jina Kamili</string>
+    <string name="sign_in">Ingia</string>
+    <string name="sign_up">Jisajili</string>
+    <string name="sign_out">Toka</string>
+    <string name="sign_in_with_google">Ingia kwa Google</string>
+    <string name="forgot_password">Umesahau neno la siri?</string>
+    <string name="reset_password">Badilisha neno la siri</string>
+    <string name="dont_have_account">Huna akaunti? Jisajili</string>
+    <string name="already_have_account">Una akaunti? Ingia</string>
+    
+    <!-- Home -->
+    <string name="welcome">Karibu, %s!</string>
+    <string name="study_streak">Mfululizo wa Kujifunza</string>
+    <string name="days">siku</string>
+    <string name="continue_learning">Endelea Kujifunza</string>
+    <string name="popular_subjects">Masomo Maarufu</string>
+    <string name="recent_notes">Vielezo vya Hivi Karibuni</string>
+    <string name="quick_quizzes">Maswali ya Haraka</string>
+    
+    <!-- Subjects -->
+    <string name="o_level">Kidato cha Nne</string>
+    <string name="a_level">Kidato cha Sita</string>
+    <string name="all_subjects">Masomo Yote</string>
+    <string name="search_subjects">Tafuta masomo…</string>
+    
+    <!-- Notes -->
+    <string name="notes">Vielezo</string>
+    <string name="bookmarked_notes">Vielezo Vilivyohifadhiwa</string>
+    <string name="read_time">Dakika %d kusoma</string>
+    <string name="bookmark">Hifadhi</string>
+    <string name="unbookmark">Ondoa alama</string>
+    <string name="key_points">Mambo Muhimu</string>
+    <string name="formulas">Fomula</string>
+    <string name="diagrams">Michoro</string>
+    
+    <!-- Quizzes -->
+    <string name="start_quiz">Anza Maswali</string>
+    <string name="quiz_questions">Maswali %d</string>
+    <string name="quiz_duration">Dakika %d</string>
+    <string name="quiz_difficulty">Ugumu: %s</string>
+    <string name="submit_quiz">Wasilisha Maswali</string>
+    <string name="next_question">Ifuatayo</string>
+    <string name="previous_question">Iliyotangulia</string>
+    <string name="question_number">Swali %d kati ya %d</string>
+    <string name="time_remaining">Muda: %s</string>
+    <string name="quiz_result">Matokeo ya Maswali</string>
+    <string name="score">Alama: %d%%</string>
+    <string name="correct_answers">Sahihi: %d/%d</string>
+    <string name="passed">Umefaulu!</string>
+    <string name="failed">Endelea Kujifunza!</string>
+    <string name="retake_quiz">Rudia Maswali</string>
+    <string name="view_solutions">Tazama Majibu</string>
+    
+    <!-- Past Papers -->
+    <string name="search_papers">Tafuta mitihani ya zamani…</string>
+    <string name="filter_by_year">Chuja kwa Mwaka</string>
+    <string name="year">Mwaka: %d</string>
+    <string name="download_paper">Pakua Mtihani</string>
+    <string name="paper_number">Karatasi %d</string>
+    <string name="total_marks">Alama %d</string>
+    
+    <!-- Progress -->
+    <string name="your_progress">Maendeleo Yako</string>
+    <string name="overall_performance">Utendaji wa Jumla</string>
+    <string name="strong_subjects">Masomo Mazuri</string>
+    <string name="weak_subjects">Masomo ya Kuboresha</string>
+    <string name="study_time">Muda wa Kujifunza</string>
+    <string name="total_hours">Masaa %s</string>
+    <string name="quizzes_taken">Maswali Yaliyochukua: %d</string>
+    <string name="average_score">Alama ya wastani: %.1f%%</string>
+    <string name="achievements">Mafanikio</string>
+    
+    <!-- Settings -->
+    <string name="settings">Mipangilio</string>
+    <string name="profile">Wasifu</string>
+    <string name="language">Lugha</string>
+    <string name="english">Kiingereza</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="notifications">Arifa</string>
+    <string name="study_reminders">Kikumbusho cha Kujifunza</string>
+    <string name="premium">Pata Premium</string>
+    <string name="about">Kuhusu</string>
+    
+    <!-- Common -->
+    <string name="loading">Inapakia…</string>
+    <string name="error">Kosa: %s</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="cancel">Ghairi</string>
+    <string name="ok">Sawa</string>
+    <string name="save">Hifadhi</string>
+    <string name="delete">Futa</string>
+    <string name="share">Shiriki</string>
+    <string name="search">Tafuta</string>
+    <string name="filter">Chuja</string>
+    <string name="sort">Panga</string>
+    <string name="no_data">Hakuna data</string>
+    <string name="offline_mode">Hali ya Nje ya Mtandao</string>
+    
+    <!-- Premium -->
+    <string name="premium_feature">Kipengele cha Premium</string>
+    <string name="upgrade_to_unlock">Pata Premium ili kufungua kipengele hiki</string>
+    <string name="premium_benefits">Faida za Premium:\n• Fikia masomo na vielezo vyote\n• Maswali yasiyo na kikomo\n• Maelezo ya kina\n• Uzoefu bila matangazo\n• Msaada wa kipaumbele</string>
+</resources>
